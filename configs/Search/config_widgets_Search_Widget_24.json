@@ -1,0 +1,40 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": false,
+  "sources": [
+    {
+      "layerId": null,
+      "url": "https://mkk.gis/arcgis/rest/services/search/PublishDataSearch/MapServer/0",
+      "name": "назва вулиці і адреса",
+      "placeholder": "",
+      "searchFields": [
+        "AddressF"
+      ],
+      "displayField": "AddressF",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": 5000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": null,
+      "url": "https://mkk.gis/arcgis/rest/services/PublData/Splite_PublData_3857/MapServer/0",
+      "name": "назва вулиці",
+      "placeholder": "",
+      "searchFields": [
+        "UkrNameF"
+      ],
+      "displayField": "UkrNameF",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": 5000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    }
+  ]
+}

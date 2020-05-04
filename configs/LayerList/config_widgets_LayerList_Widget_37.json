@@ -1,0 +1,198 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "PolygonRegister_5745": {
+      "display": true
+    },
+    "AddresPubl_4282": {
+      "display": true
+    },
+    "AddresPubl_4282_0": {
+      "display": true
+    },
+    "StreetsPubl_5701": {
+      "display": true
+    },
+    "StreetsPubl_5701_0": {
+      "display": true
+    },
+    "LineAddressStreet_6597": {
+      "display": true
+    },
+    "LineAddressStreet_6597_0": {
+      "display": true
+    },
+    "RedLines_1861": {
+      "display": true
+    },
+    "RedLines_1861_0": {
+      "display": true
+    },
+    "RedLines_1861_1": {
+      "display": true
+    },
+    "Building_9635": {
+      "display": true
+    },
+    "Building_9635_0": {
+      "display": true
+    },
+    "ParcelsFunctChange_6418": {
+      "display": true
+    },
+    "ParcelsFunctChange_6418_0": {
+      "display": true
+    },
+    "MUO_9885": {
+      "display": true
+    },
+    "MUO_9885_0": {
+      "display": true
+    },
+    "MUO_9885_1": {
+      "display": true
+    },
+    "FC_DPT_9541": {
+      "display": true
+    },
+    "FC_DPT_9541_0": {
+      "display": true
+    },
+    "DPT_SAYT_3366": {
+      "display": true
+    },
+    "DPT_SAYT_3366_0": {
+      "display": true
+    },
+    "DPT_SAYT_3366_3": {
+      "display": true
+    },
+    "PrZones_Env_9867": {
+      "display": true
+    },
+    "PrZones_Env_9867_0": {
+      "display": true
+    },
+    "PZF_5575": {
+      "display": true
+    },
+    "PZF_5575_0": {
+      "display": true
+    },
+    "PZF_5575_1": {
+      "display": true
+    },
+    "PZF_5575_2": {
+      "display": true
+    },
+    "PZF_5575_3": {
+      "display": true
+    },
+    "PZF_5575_4": {
+      "display": true
+    },
+    "PZF_5575_5": {
+      "display": true
+    },
+    "PZF_5575_6": {
+      "display": true
+    },
+    "PZF_5575_7": {
+      "display": true
+    },
+    "PZF_5575_8": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_0": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_1": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_2": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_3": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_4": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_5": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_6": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_7": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_8": {
+      "display": true
+    },
+    "PlanRestr_DPT_3110_9": {
+      "display": true
+    },
+    "Culture_8106": {
+      "display": true
+    },
+    "Culture_8106_0": {
+      "display": true
+    },
+    "Culture_8106_1": {
+      "display": true
+    },
+    "Culture_8106_2": {
+      "display": true
+    },
+    "FuncPlanStruct_419": {
+      "display": true
+    },
+    "FuncPlanStruct_419_0": {
+      "display": true
+    },
+    "FuncPlanStruct_419_1": {
+      "display": true
+    },
+    "CityDistricts_9497": {
+      "display": true
+    },
+    "CityDistricts_9497_0": {
+      "display": true
+    },
+    "COSMOS_2013_4980": {
+      "display": true
+    },
+    "COSMOS_2013_4980_0": {
+      "display": true
+    },
+    "COSMOS_2013_4980_3": {
+      "display": true
+    },
+    "COSMO_2012_5794": {
+      "display": true
+    },
+    "COSMO_2012_5794_0": {
+      "display": true
+    },
+    "COSMO_2012_5794_3": {
+      "display": true
+    }
+  }
+}

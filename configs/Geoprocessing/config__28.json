@@ -1,0 +1,184 @@
+{
+  "name": "Model",
+  "displayName": "District",
+  "description": "Обираємо шар районів",
+  "category": "",
+  "helpUrl": "https://mkk.gis/arcgis/rest/directories/arcgisoutput/Register/Creation_GPServer/Register_Creation/Model.htm",
+  "_ssl": true,
+  "serverInfo": {
+    "currentVersion": 10.71,
+    "url": "https://mkk.gis/arcgis/rest/services/Register/Creation/GPServer/",
+    "hasResultMapServer": false,
+    "resultMapServerName": "",
+    "supportsUpload": false
+  },
+  "useResultMapServer": false,
+  "taskUrl": "https://mkk.gis/arcgis/rest/services/Register/Creation/GPServer/District",
+  "isSynchronous": false,
+  "inputParams": [
+    {
+      "name": "Feature_Set",
+      "dataType": "GPFeatureRecordSetLayer",
+      "description": "Креслемо полігон",
+      "defaultValue": {
+        "displayFieldName": "",
+        "geometryType": "esriGeometryPolygon",
+        "spatialReference": {
+          "wkt": "PROJCS[\"Ukraine_2000_LCS-80\",GEOGCS[\"GCS_Ukraine_2000\",DATUM[\"D_Ukraine_2000\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Gauss_Kruger\"],PARAMETER[\"False_Easting\",300000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",30.5],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          },
+          {
+            "name": "RequestId",
+            "type": "esriFieldTypeInteger",
+            "alias": "RequestId"
+          },
+          {
+            "name": "UserId",
+            "type": "esriFieldTypeInteger",
+            "alias": "UserId"
+          },
+          {
+            "name": "StreetCode",
+            "type": "esriFieldTypeString",
+            "alias": "StreetCode",
+            "length": 50
+          },
+          {
+            "name": "PersonType",
+            "type": "esriFieldTypeString",
+            "alias": "PersonType",
+            "length": 50
+          },
+          {
+            "name": "Organization_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Organization_Name",
+            "length": 250
+          },
+          {
+            "name": "Personal_Surname",
+            "type": "esriFieldTypeString",
+            "alias": "Personal_Surname",
+            "length": 50
+          },
+          {
+            "name": "Personal_Name",
+            "type": "esriFieldTypeString",
+            "alias": "Personal_Name",
+            "length": 50
+          },
+          {
+            "name": "Personal_Patronymic",
+            "type": "esriFieldTypeString",
+            "alias": "Personal_Patronymic",
+            "length": 50
+          },
+          {
+            "name": "InputDocumentNumber",
+            "type": "esriFieldTypeString",
+            "alias": "InputDocumentNumber",
+            "length": 50
+          },
+          {
+            "name": "FirstEmail",
+            "type": "esriFieldTypeString",
+            "alias": "FirstEmail",
+            "length": 50
+          },
+          {
+            "name": "SecondEmail",
+            "type": "esriFieldTypeString",
+            "alias": "SecondEmail",
+            "length": 50
+          },
+          {
+            "name": "GlobalID",
+            "type": "esriFieldTypeGlobalID",
+            "alias": "GlobalID",
+            "length": 38
+          },
+          {
+            "name": "created_user",
+            "type": "esriFieldTypeString",
+            "alias": "created_user",
+            "length": 255
+          },
+          {
+            "name": "created_date",
+            "type": "esriFieldTypeDate",
+            "alias": "created_date",
+            "length": 8
+          },
+          {
+            "name": "last_edited_user",
+            "type": "esriFieldTypeString",
+            "alias": "last_edited_user",
+            "length": 255
+          },
+          {
+            "name": "last_edited_date",
+            "type": "esriFieldTypeDate",
+            "alias": "last_edited_date",
+            "length": 8
+          },
+          {
+            "name": "InputDocumentDate",
+            "type": "esriFieldTypeDate",
+            "alias": "InputDocumentDate",
+            "length": 8
+          },
+          {
+            "name": "SHAPE_Length",
+            "type": "esriFieldTypeDouble",
+            "alias": "SHAPE_Length"
+          },
+          {
+            "name": "SHAPE_Area",
+            "type": "esriFieldTypeDouble",
+            "alias": "SHAPE_Area"
+          }
+        ],
+        "features": [],
+        "exceededTransferLimit": false
+      },
+      "category": "",
+      "label": "Накреслити полігон",
+      "visible": true,
+      "required": true,
+      "featureSetMode": "draw",
+      "tooltip": "Накреслити полігон",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      }
+    }
+  ],
+  "outputParams": [],
+  "shareResults": false,
+  "layerOrder": [
+    "Feature_Set"
+  ],
+  "showExportButton": false
+}
